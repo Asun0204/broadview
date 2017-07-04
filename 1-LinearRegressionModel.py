@@ -40,7 +40,7 @@ def test_Ridge(*data):
     ax = fig.add_subplot(1, 1, 1)
     ax.plot(alphas, scores)
     ax.set_xlabel(r'$\alpha$')
-    ax.set_ylabel(r'score')
+    ax.set_ylabel('score')
     ax.set_xscale('log') # Set the scaling of the x-axis.
     ax.set_title('Ridge')
     plt.show()
