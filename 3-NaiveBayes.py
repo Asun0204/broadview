@@ -123,4 +123,4 @@ if __name__ == '__main__':
     # test_MultinomialNB_alpha(X_train, X_test, y_train, y_test)
     # test_BernoullinNB(X_train, X_test, y_train, y_test)
     # test_BernoulliNB_alpha(X_train, X_test, y_train, y_test)
-    test_BernoulliNB_binaryize(X_train, X_test, y_train, y_test)
+    # test_BernoulliNB_binaryize(X_train, X_test, y_train, y_test)
